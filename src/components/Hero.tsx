@@ -51,7 +51,8 @@ const Hero = () => {
             <div className="relative animate-fade-in-up animation-delay-200">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl ring-4 ring-white">
                 <img
-                 <img src="/portfolio/profile.jpg" alt="Wathsiluni Liyanage"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
+                  alt="Wathsiluni Liyanage"
                   className="w-full h-full object-cover"
                 />
               </div>
